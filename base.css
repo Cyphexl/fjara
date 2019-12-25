@@ -4,12 +4,12 @@ body {
     min-height: 100vh;
     min-height: -webkit-fill-available;
 
-    background: #232425;
+    background: #222222;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-img {
+svg {
     height: 200px;
 }
