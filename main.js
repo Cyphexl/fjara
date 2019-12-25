@@ -5,6 +5,7 @@ const setColor = color => {
     document.body.style.backgroundColor = color.back
     document.getElementById("theme-color").setAttribute("content", color.fore)
     document.getElementById("fjara").setAttribute("fill", color.fore)
+    document.getElementById("note").innerText = color.fore
 }
 
 const getRandomColor = () => "#" + ((1 << 24) * Math.random() | 0).toString(16)
