@@ -1,0 +1,13 @@
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+
+    background: #232425;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+}
